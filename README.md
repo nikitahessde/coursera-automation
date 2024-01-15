@@ -3,7 +3,7 @@
 Python skripts, kas izmanto Selenium un Openpyxl bibliotēkas, lai apkopotu informāciju par TOP-10 kursiem Coursera platformā noteiktajā jomā un saglabātu to Excel failā.
 
 ## Projekta Uzdevums
-Skripts ir izstrādāts, lai ļautu lietotājiem iegūt informāciju par Coursera kursiem, tos filtrējot pēc dažādiem kritērijiem, piemēram, kursa līmenis, kursa tips un minimālais reitings. Galvenais uzdevums ir izveidot filtrētu kursu sarakstu, kas atbilst lietotāja izvēlētajiem kritērijiem.
+Skripts ir izstrādāts, lai ļautu lietotājiem iegūt informāciju par Coursera kursiem, tos filtrējot pēc dažādiem kritērijiem, piemēram, kursa līmenis, kursa tips un minimālais reitings. Galvenais uzdevums ir izveidot pārskatāmu filtrētu  excel kursu sarakstu, kas atbilst lietotāja izvēlētajiem kritērijiem.
 
 ## Izmantotas Python bibliotēkas
 - **Selenium:** Izmantots, lai automatizētu pārlūka darbības un iegūtu informāciju no Coursera mājaslapas.
