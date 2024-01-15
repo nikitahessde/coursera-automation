@@ -8,7 +8,7 @@ Skripts ir izstrādāts, lai ļautu lietotājiem iegūt informāciju par Courser
 ## Izmantotas Python bibliotēkas
 - **Selenium:** Izmantots, lai automatizētu pārlūka darbības un iegūtu informāciju no Coursera mājaslapas.
 - **Openpyxl:** Ļauj izveidot un rediģēt Excel failus, kur tiek saglabāta informācija par kursiem.
-
+- **Time:** Ļauj iepauzēt programmu uz noteiktu laiku (lai sagaidītu kamēr selenium izpilda darbību).
 ## Programmatūras lietošana
 1. Lietotājiem tiek piedāvāts ievadīt studiju jomu (piemēram, "JavaScript", "Python").
 2. Lietotājiem tiek uzdots jautājums par viņu prasmju līmeni (Beginner, Intermediate, Advanced, Mixed).
