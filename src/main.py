@@ -6,7 +6,7 @@ import time
 import openpyxl
 
 
-def get_valid_input(message, valid_options=None):
+def getValidInput(message, valid_options=None):
     while True:
         user_input = input(message)
         try:
@@ -22,12 +22,12 @@ def get_valid_input(message, valid_options=None):
 course_field = input("Enter field: ")
 
 valid_levels = ["Beginner", "Intermediate", "Advanced", "Mixed"]
-your_level = get_valid_input("Enter your level (Beginner, Intermediate, Advanced, Mixed): ", valid_levels)
+your_level = getValidInput("Enter your level (Beginner, Intermediate, Advanced, Mixed): ", valid_levels)
 
-min_rating = get_valid_input("Enter the minimal rating of the course (ex. 4.8): ")
+min_rating = getValidInput("Enter the minimal rating of the course (ex. 4.8): ")
 
 valid_types = ["Course", "Specialization", "Professional Certificate"]
-required_type = get_valid_input("Enter the type of course (Course, Specialization, Professional Certificate): ", valid_types)
+required_type = getValidInput("Enter the type of course (Course, Specialization, Professional Certificate): ", valid_types)
 
 
 workbook = openpyxl.Workbook()
